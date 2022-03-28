@@ -1,11 +1,12 @@
 import styled from 'styled-components/native'
 
-export const StyledButton = styled.Button`
+export const StyledButton = styled.TouchableOpacity`
 width: 320px;
 height: 40px;
-background-color: #ffff;
-padding-left: 16px;
-font-size: 16px;
+align-items: center;
+border-radius: 25px;
+background-color: blue;
 justify-content: center;
 align-items: center;
+margin-bottom: 30px;
 `

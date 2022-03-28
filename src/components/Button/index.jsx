@@ -1,10 +1,8 @@
 import {StyledButton} from './style'
 
-const Button = (props,children) => {
+const Button = (props) => {
   return(
-    <StyledButton {...props}>
-      {children}
-    </StyledButton>
+    <StyledButton {...props}/>
   )
 }
 
