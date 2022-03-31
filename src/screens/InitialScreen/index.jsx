@@ -18,7 +18,8 @@ const InitialScreen =()=>{
     },
     LogoTitle:{
     fontFamily: 'Hurricane_400Regular',
-    fontSize: 60,
+    fontSize: 80,
+    marginBottom: 50
     },
     textButtons:{
       fontSize: 20,
@@ -33,15 +34,19 @@ const InitialScreen =()=>{
       alignItems: 'center',
       justifyContent: 'space-evenly',
       flexDirection: 'row',
+      backgroundColor: '#ffff',
+      width: 320,
+      height: 40,
+      borderRadius: 25
     }
   });
 
   return(
     <View style={styles.Container}>
-      <Text style={styles.LogoTitle}>Salão da Leide</Text>
+      <Text style={styles.LogoTitle}>Salão da Leide </Text>
 
           <View style={styles.viewButtons}>
-              <Button>
+              <Button >
                 <Text style={styles.textButtons}>Login</Text>
               </Button>
 
